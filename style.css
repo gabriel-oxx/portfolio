@@ -5,9 +5,9 @@
 
 body {
   background-color: #000000;
-  box-sizing: content-box;
+  box-sizing: border-box;
   color: #f6f6f6;
-  height: 90%;
+  height: 100vh;
 }
 
 .presentation {
