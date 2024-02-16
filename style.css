@@ -8,12 +8,19 @@ body {
   border: 1 em solid #22d4fd;
   box-sizing: border-box;
   color: #f6f6f6;
-  overflow: calc(100vh - 100px);
   height: 100vh;
+  justify-content: space-between;
+  overflow: calc(100vh - 100px);
+}
+
+.responsive {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .presentation {
-    align-itens: center;
+  align-itens: center;
   display: flex;
 }
 
