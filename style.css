@@ -5,8 +5,10 @@
 
 body {
   background-color: #000000;
+  border: 1 em solid #22d4fd;
   box-sizing: border-box;
   color: #f6f6f6;
+  overflow: calc(100vh - 100px);
   height: 100vh;
 }
 
