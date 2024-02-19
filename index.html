@@ -12,26 +12,28 @@
 <body>
 	<header class="responsive">
 		<h1 class="title">Fulano de tal - desenvolvedor Web</h1>
-		<a href="" class="about">Sobre mim</a>
-		<a href="" class="contact">Contato</a>
-		<a href="" class="projects">Projetos</a>
-		<a href="" class="skills">Habilidades</a>
+		<div class="links">
+			<a href="#about">Sobre mim</a>
+			<a href="#skills">Habilidades</a>
+			<a href="#projects">Projetos</a>
+			<a href="#contact">Contato</a>
+		</div>
 	</header>
 	<main class="presentation">
-		<h2 class="presentation__content__title title">
+		<h2 class=" title presentation__content__title">
 			Eleve seu negócio digital a outro nível
 			<strong class="strong-title">com um Front-end de qualidade!
 			</strong>
 		</h2>
 		<section class="presentation__content about">
-			<h3 class="about-title title">Sobre mim</h3>
+			<h3 class="about-title title" id="about">Sobre mim</h3>
 			<p class="paragraph">Sou um desenvolvedor web front-end apaixonado por criar interfaces intuitivas e
 				visualmente atraentes que impulsionam os resultados do seu negócio.</p>
 			<p class="paragraph"> Com mais de 5 anos de experiência, já trabalhei em diversos projetos, desde pequenos
 				sites até grandes plataformas e-commerce.</p>
 		</section>
 		<section class="presentation__content skills">
-			<h3 class="skills-title title">Habilidades</h3>
+			<h3 class="skills-title title" id="skills">Habilidades</h3>
 			<ul class="list">
 				<li class="skill">HTML, CSS e JavaScript</li>
 				<li class="skill">Frameworks como React, Angular e Vue.js</li>
@@ -51,7 +53,7 @@
 			</p>
 		</section>
 		<section class="presentation__content projects">
-			<h3 class="project-title title"> Conheça alguns dos meus projetos</h3>
+			<h3 class="project-title title" id="projects"> Conheça alguns dos meus projetos</h3>
 			<ul class="list">
 				<li class="project">[Nome do projeto 1]: [Descrição breve do projeto e seus resultados]</li>
 				<li class="project">[Nome do projeto 2]: [Descrição breve do projeto e seus resultados]</li>
@@ -65,11 +67,13 @@
 	</main>
 	<footer class="footer">
 		<section class="contact">
-			<h3 class="contact-title">Meus contatos</h3>
-			<a href="" class="link">Email</a>
-			<a href="" class="link">Telefone</a>
-			<a href="" class="link">LinkedIn</a>
-			<a href="" class="link">GitHub</a>
+			<h3 class="contact-title" id="contact">Meus contatos</h3>
+			<div class="contact__links">
+				<a href="" class="link">Email</a>
+				<a href="" class="link">Telefone</a>
+				<a href="" class="link">LinkedIn</a>
+				<a href="" class="link">GitHub</a>
+			</div>
 			<p class="paragraph">Estou pronto para ajudar você a alcançar seus objetivos de negócios!</p>
 		</section>
 		<p>© 2021 - Todos os direitos reservados</p>
