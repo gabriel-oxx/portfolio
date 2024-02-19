@@ -43,7 +43,9 @@ strong {
 }
 
 .links {
+  align-itens: center;
   display: flex;
+  gap: 32px;
   justify-content: space-between;
 }
 
