@@ -16,6 +16,7 @@ body {
 .presentation {
   align-itens: center;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin: 10%;
 }
