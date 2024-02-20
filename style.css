@@ -60,10 +60,17 @@ strong {
   border: 2px solid #22d4fd;
   border-radius: 8px;
   color: #f6f6f6;
+  display: flex;
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: 600;
+  gap: 16px;
+  justify-content: center;
   padding: 21.5px 0;
   text-decoration: none;
   width: 378px;
+}
+
+.link:hover {
+  background-color: #272727;
 }
