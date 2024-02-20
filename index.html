@@ -64,8 +64,6 @@
 				nível, entre em contato comigo!
 			</p>
 		</section>
-	</main>
-	<footer class="footer">
 		<section class="contact">
 			<h3 class="contact-title" id="contact">Meus contatos</h3>
 			<div class="links">
@@ -80,9 +78,16 @@
 			</div>
 			<p class="paragraph">Estou pronto para ajudar você a alcançar seus objetivos de negócios!</p>
 		</section>
-		<p>© 2021 - Todos os direitos reservados</p>
-		<p>Desenvolvido por Fulano de tal</p>
+	</main>
+	<footer class="footer">
+		<p class="footer__paragraph" id="p"></p>
+		<p class="footer__paragraph">Desenvolvido por Fulano de tal</p>
 	</footer>
+	<script>
+		let p = document.querySelector("#p");
+		let date = new Date();
+p.textContent = `© ${date.getFullYear()} - Todos os direitos reservados`;
+	</script>
 </body>
 
 </html>

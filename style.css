@@ -9,7 +9,6 @@ body {
   background-color: #000000;
   box-sizing: content-box;
   color: #f6f6f6;
-  height: 100vh;
   justify-content: space-between;
 }
 
@@ -18,7 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 10%;
+  padding: 5% 8%;
 }
 
 .title {
@@ -40,6 +39,7 @@ strong {
 .paragraph {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
+  text-align: justify;
 }
 
 .contact-title {
@@ -73,4 +73,17 @@ strong {
 
 .link:hover {
   background-color: #272727;
+}
+
+.footer {
+  background-color: #22d4fd;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 24px;
+}
+
+.footer__paragraph{
+  text-align: center;
 }
