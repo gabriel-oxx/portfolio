@@ -10,14 +10,14 @@
 </head>
 
 <body>
-	<header class="responsive">
+	<header class="header">
 		<h1 class="title">Fulano de tal - desenvolvedor Web</h1>
-		<div class="links">
-			<a href="#about" class="link">Sobre mim</a>
-			<a href="#skills" class="link">Habilidades</a>
-			<a href="#projects" class="link">Projetos</a>
-			<a href="#contact" class="link">Contato</a>
-		</div>
+		<nav class="nav-bar">
+			<a href="#about" class="link-menu">Sobre mim</a>
+			<a href="#skills" class="link-menu">Habilidades</a>
+			<a href="#projects" class="link-menu">Projetos</a>
+			<a href="#contact" class="link-menu">Contato</a>
+		</nav>
 	</header>
 	<main class="presentation">
 		<h2 class=" title">
@@ -86,7 +86,7 @@
 	<script>
 		let p = document.querySelector("#p");
 		let date = new Date();
-p.textContent = `© ${date.getFullYear()} - Todos os direitos reservados`;
+		p.textContent = `©t ${date.getFullYear()} - Todos os direitos reservados`;
 	</script>
 </body>
 
