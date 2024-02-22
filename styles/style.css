@@ -12,12 +12,25 @@ body {
   justify-content: space-between;
 }
 
+.header {
+  padding: 2% 0% 0% 15%;
+}
+
+.nav-bar {
+  color: #22d4fd;
+  display: flex;
+  font-family: "montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  gap: 80px;
+}
+
 .presentation {
   align-itens: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 5% 8%;
+  padding: 5% 5%;
 }
 
 .title {
@@ -84,6 +97,6 @@ strong {
   padding: 24px;
 }
 
-.footer__paragraph{
+.footer__paragraph {
   text-align: center;
 }
