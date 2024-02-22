@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sobre mim</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<h1 class="title">Gabriel Costa - Desenvolvedor</h1>
+		<nav class="nav-bar">
+			<a href="index.html" class="link-menu">Início</a>
+			<a href="about.html" class="link-menu">Sobre mim</a>
+			<a href="#skills" class="link-menu">Habilidades</a>
+			<a href="#projects" class="link-menu">Projetos</a>
+			<a href="#contact" class="link-menu">Contato</a>
+		</nav>
+	</header>
+
+	<section class="presentation__content about">
+		<p class="paragraph">Sou um desenvolvedor web front-end apaixonado por criar interfaces intuitivas e
+			visualmente atraentes que impulsionam os resultados do seu negócio.</p>
+		<p class="paragraph"> Com mais de 5 anos de experiência, já trabalhei em diversos projetos, desde pequenos
+			sites até grandes plataformas e-commerce.</p>
+	</section>
+
+	<footer class="footer">
+		<p class="footer__paragraph" id="p"></p>
+		<p class="footer__paragraph">Desenvolvido por Gabriel Costa</p>
+	</footer>
+	<script>
+		let p = document.querySelector("#p");
+		let date = new Date();
+		p.textContent = `© ${date.getFullYear()} - Todos os direitos reservados`;
+	</script>
+</body>
+
+</html>

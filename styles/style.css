@@ -17,12 +17,16 @@ body {
 }
 
 .nav-bar {
-  color: #22d4fd;
   display: flex;
+  gap: 80px;
+}
+
+.link-menu {
+  color: #22d4fd;
   font-family: "montserrat", sans-serif;
   font-size: 24px;
   font-weight: 600;
-  gap: 80px;
+  text-decoration: none;
 }
 
 .presentation {
